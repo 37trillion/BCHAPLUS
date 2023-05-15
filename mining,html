@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bitcoin Cash Mining</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bitcoin Cash Mining</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Mining</a></li>
+          <li><a href="BCHinfo.html">BCH Info</a></li>
+          <li><a href="https://www.reddit.com/r/btc/">Reddit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Connect to Mining Pool</h2>
+      <p>To connect to the Bitcoin Cash mining pool, enter the following URL in your mining software:</p>
+      <pre><code>stratum+tcp://bchaplus:8333</code></pre>
+      <p>This URL will connect to the actual mining pool URL: <code>stratum+tcp://192.168.0.58:8333</code></p>
+    </section>
+  </body>
+</html>
